@@ -21,3 +21,7 @@
     z-index: 999999;
     background-color: darkblue;
 }
+.textHead {
+    color:white;
+    font-family: 'Miriam Libre', sans-serif;
+}
