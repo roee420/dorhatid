@@ -33,4 +33,17 @@
     left: 10;
     position: relative;
     z-index: 1;
+    animation-name: myAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes myAnimation{
+    0% {border-radius: 0 0 0 0;}
+    25% {border-radius: 50% 0 0 0;}
+    50% {border-radius: 50% 50% 0 0;}
+    75% {border-radius: 50% 50% 50% 0;}
+    100% {border-radius: 50% 50% 50% 50%;}
+
 }
