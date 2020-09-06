@@ -24,4 +24,7 @@
 .textHead {
     color:white;
     font-family: 'Miriam Libre', sans-serif;
+    text-align: center;
+    font-size:40pt;
+    padding: 0;
 }
