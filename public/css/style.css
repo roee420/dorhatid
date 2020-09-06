@@ -38,7 +38,25 @@
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
+#text{
+    width: 800px;
+    height: 500px;
+    font-size:30pt;
+    float: left;
+    font-family: 'Miriam Libre', sans-serif;
+    border:red solid;
+    background-color: blue;
+    animation-name: slidetext;
+    transition-property: transform;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transform-origin: left;
 
+    /*transition: transform 3s ease-out;
+    transform: scaleX(1);
+    transform-origin: left;*/
+}
 @keyframes myAnimation{
     0% {border-radius: 0 0 0 0;}
     25% {border-radius: 50% 0 0 0;}
@@ -46,4 +64,11 @@
     75% {border-radius: 50% 50% 50% 0;}
     100% {border-radius: 50% 50% 50% 50%;}
 
+}
+@keyframes slidetext{
+    0% {transform: scaleX(0);}
+    25% {transform: scaleX(25%);}
+    50% {transform: scaleX(50%);}
+    75% {transform: scaleX(75%);}
+    100% {transform: scaleX(1);}
 }
