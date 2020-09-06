@@ -8,7 +8,6 @@
     top:0;
     left: 0;
     position:absolute;
-    z-index: 999999;
 }
 .body1 {
     width: 100%;
@@ -18,7 +17,6 @@
     top: 150px;
     left: 0;
     position: absolute;
-    z-index: 999999;
     background-color: white;
 }
 .textHead {
@@ -27,4 +25,12 @@
     text-align: center;
     font-size:40pt;
     padding: 0;
+}
+.Logo {
+    width: 125px;
+    height: 125px;
+    top: -165;
+    left: 10;
+    position: relative;
+    z-index: 1;
 }
