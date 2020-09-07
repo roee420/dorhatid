@@ -42,7 +42,7 @@
     width: 800px;
     height: 500px;
     font-size:30pt;
-    float: left;
+    float: right;
     font-family: 'Miriam Libre', sans-serif;
     border:red solid;
     background-color: blue;
@@ -51,7 +51,7 @@
     animation-duration: 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    transform-origin: left;
+    transform-origin: right;
 }
 @keyframes myAnimation{
     0% {border-radius: 0 0 0 0;}
