@@ -52,10 +52,6 @@
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     transform-origin: left;
-
-    /*transition: transform 3s ease-out;
-    transform: scaleX(1);
-    transform-origin: left;*/
 }
 @keyframes myAnimation{
     0% {border-radius: 0 0 0 0;}
@@ -66,9 +62,9 @@
 
 }
 @keyframes slidetext{
-    0% {transform: scaleX(0);}
-    25% {transform: scaleX(25%);}
-    50% {transform: scaleX(50%);}
-    75% {transform: scaleX(75%);}
-    100% {transform: scaleX(1);}
+    0% {transform: scaleX(0); opacity: 0%;}
+    25% {transform: scaleX(25%); opacity: 25%;}
+    50% {transform: scaleX(50%); opacity: 50%;}
+    75% {transform: scaleX(75%); opacity: 75%;}
+    100% {transform: scaleX(1); opacity: 100%;}
 }
