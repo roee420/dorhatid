@@ -9,6 +9,9 @@
     left: 0;
     position:absolute;
 }
+main{
+    font-family: 'Miriam Libre', sans-serif;
+}
 .body1 {
     width: 100%;
     height: calc(100% - 150px);
@@ -21,7 +24,6 @@
 }
 .textHead {
     color:white;
-    font-family: 'Miriam Libre', sans-serif;
     text-align: center;
     font-size:40pt;
     padding: 0;
@@ -44,7 +46,6 @@
     height: 500px;
     font-size:30pt;
     float: right;
-    font-family: 'Miriam Libre', sans-serif;
     border:red solid;
     background-color: blue;
     animation-name: slidetext;
@@ -60,7 +61,6 @@
     font-size:30pt;
     margin-top: 500;
     float: left;
-    font-family: 'Miriam Libre', sans-serif;
     border:red solid;
     background-color: blue;
     animation-name: slideleft;
