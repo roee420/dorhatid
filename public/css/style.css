@@ -11,6 +11,7 @@
 }
 main{
     font-family: 'Miriam Libre', sans-serif;
+    direction: rtl;
 }
 .body1 {
     width: 100%;
@@ -46,8 +47,6 @@ main{
     height: 500px;
     font-size:30pt;
     float: right;
-    border:red solid;
-    background-color: blue;
     animation-name: slidetext;
     transition-property: transform;
     animation-duration: 2s;
@@ -56,13 +55,26 @@ main{
     transform-origin: right;
 }
 .textleft{
-    width: 800px;
-    height: 350px;
-    font-size:30pt;
+    width: 730px;
+    height: 150px;
+    font-size: 25pt;
     margin-top: 500;
     float: left;
-    border:red solid;
-    background-color: blue;
+    animation-name: slideleft;
+    transition-property: transform;
+    animation-duration: 2.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transform-origin: left;
+}
+.link1{
+    top: 590px;
+    float: left;
+    left: -700;
+    border-style: solid;
+    border-radius: 10% 10% 10% 10%;
+    z-index: 2;
+    position: relative;
     animation-name: slideleft;
     transition-property: transform;
     animation-duration: 2.5s;
