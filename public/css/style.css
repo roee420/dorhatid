@@ -71,8 +71,7 @@ main{
     top: 590px;
     float: left;
     left: -700;
-    border-style: solid;
-    border-radius: 10% 10% 10% 10%;
+    box-shadow: 1px 1px 3px 3px red;
     z-index: 2;
     position: relative;
     animation-name: slideleft;
@@ -99,8 +98,15 @@ main{
 }
 @keyframes slideleft{
     0% {transform: scaleX(0); opacity: 0%;}
+    15% {transform: scaleX(15%); opacity: 15%;}
     25% {transform: scaleX(25%); opacity: 25%;}
+    35% {transform: scaleX(35%); opacity: 35%;}
+    45% {transform: scaleX(45%); opacity: 45%;}
     50% {transform: scaleX(50%); opacity: 50%;}
-    75% {transform: scaleX(75%); opacity: 75%;}
+    60% {transform: scaleX(60%); opacity: 60%;}
+    70% {transform: scaleX(70%); opacity: 70%;}
+    80% {transform: scaleX(80%); opacity: 80%;}
+    90% {transform: scaleX(90%); opacity: 90%;}
+    95% {transform: scaleX(95%); opacity: 95%;}
     100% {transform: scaleX(1); opacity: 100%;}
 }
