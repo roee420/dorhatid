@@ -24,10 +24,13 @@ main{
     background-color: white;
 }
 .textHead {
+    font-family: 'Pfennig', serif;
     color:white;
     text-align: center;
-    font-size:40pt;
+    font-size: 40pt;
+    position: relative;
     padding: 0;
+    top: 0;
 }
 .Logo {
     width: 125px;
@@ -42,8 +45,8 @@ main{
     animation-delay: 2s;
     animation-fill-mode: forwards;
 }
-#text{
-    width: 800px;
+.textRight{
+    width: 650px;
     height: 500px;
     font-size:30pt;
     float: right;
@@ -67,11 +70,16 @@ main{
     animation-fill-mode: forwards;
     transform-origin: left;
 }
+#list {
+    width: 800px;
+    position: absolute;
+    top: 150px;
+}
 .link1{
     top: 590px;
     float: left;
     left: -700;
-    box-shadow: 1px 1px 3px 3px red;
+    box-shadow: 1px 1px 3px 3px gray;
     z-index: 2;
     position: relative;
     animation-name: slideleft;
