@@ -25,6 +25,7 @@ main{
 }
 .textHead {
     font-family: 'Pfennig', serif;
+    font-weight: 700;
     color:white;
     text-align: center;
     font-size: 40pt;
